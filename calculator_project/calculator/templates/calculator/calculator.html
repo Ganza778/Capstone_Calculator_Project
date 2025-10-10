@@ -1,0 +1,36 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'calculator/style.css' %}">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Django Calculator</title>
+</head>
+
+<body>
+    <div class="calculator-container">
+        <h1>NGA Calculator</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Calculate</button>
+        </form>
+
+        {% if result %}
+        <h2>Result: {{ result }}</h2>
+        {% endif %}
+
+        <h3>History</h3>
+        <ul>
+            {% for item in history %}
+            <li>{{ item.expression }} = {{ item.result }}</li>
+            {% empty %}
+            <li>No history yet.</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+</body>
+
+</html>
