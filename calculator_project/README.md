@@ -14,3 +14,9 @@ This project evaluates mathematical expressions and stores the calculation histo
 - Retrieve calculation history via API.
 - Clear history when needed.
 
+# Technologies Used
+
+- Python
+- Django
+- Django REST Framework
+- SQLite
