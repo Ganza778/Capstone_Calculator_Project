@@ -12,15 +12,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f5f5f5;
+    background-color: rgb(78, 124, 170);
 }
 
 /* Calculator container */
 .calculator-container {
-    background-color: dodgerblue;
+    background-color: rgb(129, 160, 190);
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgb(8, 8, 8);
     width: 350px;
 }
 
@@ -28,7 +28,7 @@ body {
 .calculator-container h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;
+    color: rgb(61, 128, 61);
 }
 
 /* Form styling */
@@ -50,22 +50,22 @@ button {
     padding: 10px 15px;
     font-size: 1.2em;
     border: none;
-    background-color: #541ed3;
-    color: white;
+    background-color: rgb(124, 165, 133);
+    color: black;
     cursor: pointer;
     border-radius: 0 6px 6px 0;
     transition: background-color 0.2s;
 }
 
 button:hover {
-    background-color: #cf2945;
+    background-color: #2f5691;
 }
 
 /* Result display */
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #222;
+    color: #1d1b1b;
 }
 
 /* History list */
@@ -84,7 +84,7 @@ ul {
 ul li {
     padding: 5px 0;
     border-bottom: 1px solid #eee;
-    color: #333;
+    color: black;
 }
 
 /* Scrollbar styling for history */
@@ -93,10 +93,10 @@ ul::-webkit-scrollbar {
 }
 
 ul::-webkit-scrollbar-thumb {
-    background-color: #ccc;
+    background-color: rgba(145, 139, 139, 0.281);
     border-radius: 3px;
 }
 
 ul::-webkit-scrollbar-track {
-    background-color: #f5f5f5;
+    background-color: black;
 }
