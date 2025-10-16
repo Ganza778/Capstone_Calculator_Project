@@ -17,7 +17,7 @@ body {
 
 /* Calculator container */
 .calculator-container {
-    background-color: #fff;
+    background-color: dodgerblue;
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
@@ -50,7 +50,7 @@ button {
     padding: 10px 15px;
     font-size: 1.2em;
     border: none;
-    background-color: #4CAF50;
+    background-color: #541ed3;
     color: white;
     cursor: pointer;
     border-radius: 0 6px 6px 0;
@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #cf2945;
 }
 
 /* Result display */
